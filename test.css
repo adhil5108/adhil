@@ -1,0 +1,210 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    text-decoration: none;
+    list-style: none;
+     box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    outline: none;
+    border-width: initial;
+    border-style: none;
+    border-color: initial;
+    border-image: initial; 
+}
+body{ background: linear-gradient(215deg, rgb(18, 0, 39), rgb(3, 0, 22), rgb(3, 0, 17), rgb(9, 0, 44), rgb(0, 0, 45));}
+/* nav */
+.nav {
+    position: sticky;
+    top: 0;
+    left: 0;
+
+    padding: 35px 12%;
+   
+    backdrop-filter: blur(10px);
+    display: flex;
+    justify-content: space-around;
+    z-index: 100;
+    height: 80px;
+    align-items: center;
+    text-decoration: none;
+    list-style:none;
+    list-style-type: none   ;
+    color: black;
+}
+.header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 35px 12%;
+    background: rgba(0, 0, 0, 0.8);
+    backdrop-filter: blur(10px);
+    display: flex;
+    justify-content: space-between;
+    z-index: 100;
+    height: 80px;
+    align-items: center;
+}
+
+.logo {
+    font-size: 25px;
+    color: white;
+    font-weight: 600;
+    transition: 0.3s ease;
+        margin-left: -155px;
+}
+
+
+.navbar a {
+    font-size: 18px;
+    color: white;
+    font-weight: 500;
+    margin: 0 20px;
+    border-bottom: 3px solid transparent;
+}
+.navbar a:hover,
+.navbar a.active {
+    color: rgb(25, 74, 208);
+    border-bottom: 3px solid  rgb(25, 74, 208);}
+.logo:hover {
+    color: rgb(133, 32, 216);
+   
+    transform: scale(1.25);
+}
+/* home */
+.homee{
+display: flex;
+justify-content: center;
+
+}
+.imgbox img{position: relative;
+left: 700px;
+}
+.img{ border-radius:500px 500px 500px 500px;
+    width: 550px;
+    border: 10px;
+    transition: 0.4s ease;
+    top: 30px;
+ } 
+.img:hover{ border-radius:30px 30px 30px 30px;
+transform: scale(1.15);
+box-shadow: 0 0 25px,
+        0 0 50px grey;
+}
+      .about-meee{display: flex;
+justify-content: center; 
+color: white;
+}
+
+/* abt me */
+#para{position: relative;
+top:220px;
+left: -116px;
+font-size: 25px;
+font-weight: 450;
+}
+#Hello{position: relative;
+top:120px;
+left:435px;
+font-size: 40px;}
+#About-me{position: relative;left: 615px;font-size: 60px;top: 35px;}
+.about-meee span{color:orangered;position:absolute;padding-left: 7px;}
+/* skills */
+#h1{font-size: 60px;
+display: flex;
+justify-content: center;
+position: relative;
+left: 630px;
+color: white;
+}
+
+.skills{display: flex; justify-content: center;padding-top:70px;}
+.skil{display: flex; justify-content: flex-start;float: left;padding-top: 50px;}
+
+#html img{position: relative;
+left: 92px;
+    top:45px;
+}
+#css img{position: relative;
+left: 92px;
+    top:45px;
+}
+
+#js img{position: relative;
+left: 92px;
+    top:45px;
+}
+
+#boot img{position: relative;
+left: 92px;
+    top:45px;
+}
+/* projects */
+.h111{font-size: 60px;
+display: flex;
+justify-content: center;color: white;}
+
+.pics{display: flex;justify-content: space-between;}
+
+.prjct-1{ height: 325px;
+width:370px ; 
+   box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 15px;
+        position: relative;left:125px;
+        border-radius: 30px;
+}
+.img-box img{position: relative;left:-1px;top:-3px;}
+
+.prjct-2{height: 325px;
+width: 370px;
+box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 15px;
+position: relative;
+right:584px; border-radius: 30px;
+}
+.img-box3 img{position: relative;left:3px;top:3px;}
+.prjct-3{height: 325px;
+width: 370px;
+box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 15px;
+ border-radius: 30px;
+ position:absolute;
+ left: 900px;
+ margin-left: 100px;
+}
+.img-box2 img{position: relative;left:2.5px;top:2px;}
+.prjct-1:hover{border-radius: 10px;
+box-shadow: 0 0 20px,
+        0 0 40px rgb(0, 0, 0);
+transform: scale(1.1);
+ background: linear-gradient(215deg, rgb(18, 0, 39), rgb(3, 0, 22), rgb(3, 0, 17), rgb(9, 0, 44), rgb(0, 0, 45));color: white;
+}
+.prjct-2:hover{border-radius:10px;
+box-shadow: 0 0 20px,
+        0 0 40px rgb(0, 0, 0);
+transform: scale(1.1);
+ background: linear-gradient(215deg, rgb(18, 0, 39), rgb(3, 0, 22), rgb(3, 0, 17), rgb(9, 0, 44), rgb(0, 0, 45));color: white;
+}
+.prjct-3:hover{border-radius: 10px;
+box-shadow: 0 0 20px,
+        0 0 40px rgb(0, 0, 0);
+transform: scale(1.1);
+ background: linear-gradient(215deg, rgb(18, 0, 39), rgb(3, 0, 22), rgb(3, 0, 17), rgb(9, 0, 44), rgb(0, 0, 45));color: white;
+}
+#ney{display: flex;justify-content: center;color: white;font-size: 60px;}
+.do{display: flex;justify-content: center;color: white;}
+.map{margin-left: 250px;}
+/* .c-m{display: flex;float: left;} */
+.form{margin-left: 300px;}
+
+#name{padding: 10px 150px 10px 150px;border-radius: 6px;}
+#email{padding: 10px 150px 10px 150px;border-radius: 6px;}
+#number{padding: 10px 150px 10px 150px;border-radius: 6px;}
+#address{padding: 10px 150px 10px 150px;border-radius: 6px;}
+#msg{border-radius: 6px;}
+#submit:hover{background-color: rgb(187, 22, 121);}
+
+form{    margin: -369px 0px 0px 621px}
