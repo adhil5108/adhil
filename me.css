@@ -146,7 +146,10 @@ left: 92px;
     top:45px;
 }
 
-
+#html:hover{ transform: translateY(-40px);transition: ease 0.8s;}
+#css:hover{ transform: translateY(-40px);transition: ease 0.8s;}
+#js:hover{ transform: translateY(-40px);transition: ease 0.8s;}
+#boot:hover{ transform: translateY(-40px);transition: ease 0.8s;}
 
 /* projects */
 .h111{font-size: 60px;
@@ -182,33 +185,31 @@ box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 15px;
 .prjct-1:hover{border-radius: 10px;
 box-shadow: 0 0 20px,
         0 0 40px rgb(0, 0, 0);
-transform: scale(1.1);
+transform: scale(1.1);transform: translateY(-40px);transition: ease-in 0.5s;
  background: linear-gradient(215deg, rgb(18, 0, 39), rgb(3, 0, 22), rgb(3, 0, 17), rgb(9, 0, 44), rgb(0, 0, 45));color: white;
 }
 .prjct-2:hover{border-radius:10px;
 box-shadow: 0 0 20px,
         0 0 40px rgb(0, 0, 0);
-transform: scale(1.1);
- background: linear-gradient(215deg, rgb(18, 0, 39), rgb(3, 0, 22), rgb(3, 0, 17), rgb(9, 0, 44), rgb(0, 0, 45));color: white;
-}
+transform: scale(1.1);transform: translateY(-40px);transition: ease-in 0.5s;
+ background: linear-gradient(215deg, rgb(18, 0, 39), rgb(3, 0, 22), rgb(3, 0, 17), rgb(9, 0, 44), rgb(0, 0, 45));color: white;}
 .prjct-3:hover{border-radius: 10px;
 box-shadow: 0 0 20px,
         0 0 40px rgb(0, 0, 0);
-transform: scale(1.1);
- background: linear-gradient(215deg, rgb(18, 0, 39), rgb(3, 0, 22), rgb(3, 0, 17), rgb(9, 0, 44), rgb(0, 0, 45));color: white;
-}
+transform: scale(1.1);transform: translateY(-40px);transition: ease-in 0.5s;
+ background: linear-gradient(215deg, rgb(18, 0, 39), rgb(3, 0, 22), rgb(3, 0, 17), rgb(9, 0, 44), rgb(0, 0, 45));color: white;}
 #ney{display: flex;justify-content: center;color: white;font-size: 60px;}
 .do{display: flex;justify-content: center;color: white;}
 .map{margin-left: 250px;}
 /* .c-m{display: flex;float: left;} */
 .form{margin-left: 300px;}
-
-#name{padding: 10px 150px 10px 150px;border-radius: 6px;}
-#email{padding: 10px 150px 10px 150px;border-radius: 6px;}
-#number{padding: 10px 150px 10px 150px;border-radius: 6px;}
-#address{padding: 10px 150px 10px 150px;border-radius: 6px;}
+#name{padding: 10px 300px 10px 5px;border-radius: 6px;}
+#email{padding:10px 300px 10px 5px;border-radius: 6px;}
+#number{padding: 10px 300px 10px 5px;border-radius: 6px;}
+#address{padding:10px 300px 10px 5px;border-radius: 6px;}
 #msg{border-radius: 6px;}
-#submit:hover{background-color: rgb(187, 22, 121);}
+#submit:hover{background-color:orangered;}
 
 form{    margin: -369px 0px 0px 621px}
 .contact{margin-bottom: -20px;}
+.footer img:hover{transform:translateY(-5px);transition: ease-in-out 0.7s;}
